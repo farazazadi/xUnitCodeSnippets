@@ -17,7 +17,7 @@ handy [`XUnit`](https://github.com/xunit/xunit) code snippets for Visual Studio 
 
 ### Visual Studio Code
 
-Just execute [`Import.bat`]("https://github.com/farazazadi/xUnitCodeSnippets/blob/main/Visual%20Studio%20Code/Import.bat") file from `xUnitCodeSnippets\Visual Studio Code` directory.
+Just execute [`Import.bat`](https://github.com/farazazadi/xUnitCodeSnippets/blob/main/Visual%20Studio%20Code/Import.bat) file from `xUnitCodeSnippets\Visual Studio Code` directory.
 
 ### Shortcuts
 
