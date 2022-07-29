@@ -4,7 +4,7 @@ handy [`XUnit`](https://github.com/xunit/xunit) code snippets for Visual Studio 
 
 <img src="https://raw.githubusercontent.com/farazazadi/xUnitCodeSnippets/main/Images/snippets.gif" />
 
-## How to import code snippets in Visual Studio?
+## How to import code snippets in Visual Studio and Visual Studio Code?
 
 
 ### Visual Studio
@@ -15,7 +15,7 @@ handy [`XUnit`](https://github.com/xunit/xunit) code snippets for Visual Studio 
 2. Open it by choosing `Tools > Code Snippets Manager`.
 3. Click the `Import` button.
 
-### How to import code snippets in Visual Studio Code?
+### Visual Studio Code
 
 Just execute [`Import.bat`](https://github.com/farazazadi/xUnitCodeSnippets/blob/main/Visual%20Studio%20Code/Import.bat) file from `xUnitCodeSnippets\Visual Studio Code` directory.
 
