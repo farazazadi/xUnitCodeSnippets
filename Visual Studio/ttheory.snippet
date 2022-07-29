@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>xUnit Parameterized Test Method (AAA)</Title>
+      <Shortcut>ttheory</Shortcut>
+      <Description>Code snippet for a xUnit parameterized test method with in-line data and Arrange-Act-Assert pattern</Description>
+      <Author>Faraz Azadi</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Xunit</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>unitName</ID>
+          <ToolTip>Replace with the name of your unit</ToolTip>
+          <Default>UnitName</Default>
+        </Literal>
+        <Literal>
+          <ID>expectedBehavior</ID>
+          <ToolTip>Replace with your expected behavior</ToolTip>
+          <Default>ExpectedBehavior</Default>
+        </Literal>
+        <Literal>
+          <ID>Condition</ID>
+          <ToolTip>Replace with your condition</ToolTip>
+          <Default>Condition</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>Theory</ID>
+          <Default>Theory</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>InlineData</ID>
+          <Default>InlineData</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ParamType</ID>
+          <Default>object</Default>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ParamName</ID>
+          <Default>paramName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[[$Theory$]
+      [$InlineData$(null)]
+      public void $unitName$_$expectedBehavior$_$Condition$($ParamType$ $ParamName$)
+      {
+        // Arrange
+        $end$
+        // Act
+
+        // Assert
+
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

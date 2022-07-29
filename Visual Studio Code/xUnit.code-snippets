@@ -1,0 +1,76 @@
+{
+	"xUnit Test Method (AAA)": {
+        "scope": "csharp",
+        "prefix": "tfact",
+        "body": [
+            "[Fact]",
+            "public void ${1:UnitName}_${2:ExpectedBehavior}_${3:Condition}()",
+            "{",
+            "\t// Arrange",
+			"\t$0",
+            "\t// Act",
+			"\t",
+            "\t// Assert",
+			"\t",
+            "}"
+        ],
+        "description": "Code snippet for a xUnit test method with Arrange-Act-Assert pattern"
+    },
+
+
+	"xUnit Test Method (GWT)": {
+        "scope": "csharp",
+        "prefix": "bfact",
+        "body": [
+            "[Fact]",
+            "public void ${1:UnitName}_${2:ExpectedBehavior}_${3:Condition}()",
+            "{",
+            "\t// Given",
+			"\t$0",
+            "\t// When",
+			"\t",
+            "\t// Then",
+			"\t",
+            "}"
+        ],
+        "description": "Code snippet for a xUnit test method with Given-When-Then pattern"
+    },
+
+	"xUnit Parameterized Test Method (AAA)": {
+        "scope": "csharp",
+        "prefix": "ttheory",
+        "body": [
+            "[Theory]",
+            "[InlineData(null)]",
+            "public void ${1:UnitName}_${2:ExpectedBehavior}_${3:Condition}(${4:object} ${5:paramName})",
+            "{",
+            "\t// Arrange",
+			"\t$0",
+            "\t// Act",
+			"\t",
+            "\t// Assert",
+			"\t",
+            "}"
+        ],
+        "description": "Code snippet for a xUnit parameterized test method with in-line data and Arrange-Act-Assert pattern"
+    },
+
+	"xUnit Parameterized Test Method (GWT)": {
+        "scope": "csharp",
+        "prefix": "btheory",
+        "body": [
+            "[Theory]",
+            "[InlineData(null)]",
+            "public void ${1:UnitName}_${2:ExpectedBehavior}_${3:Condition}(${4:object} ${5:paramName})",
+            "{",
+            "\t// Given",
+			"\t$0",
+            "\t// When",
+			"\t",
+            "\t// Then",
+			"\t",
+            "}"
+        ],
+        "description": "Code snippet for a xUnit parameterized test method with in-line data and Given-When-Then pattern"
+    }
+}

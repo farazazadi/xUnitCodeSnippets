@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>xUnit Test Method (GWT)</Title>
+      <Shortcut>bfact</Shortcut>
+      <Description>Code snippet for a xUnit test method with Given-When-Then pattern</Description>
+      <Author>Faraz Azadi</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>Xunit</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>unitName</ID>
+          <ToolTip>Replace with the name of your unit</ToolTip>
+          <Default>UnitName</Default>
+        </Literal>
+        <Literal>
+          <ID>expectedBehavior</ID>
+          <ToolTip>Replace with your expected behavior</ToolTip>
+          <Default>ExpectedBehavior</Default>
+        </Literal>
+        <Literal>
+          <ID>Condition</ID>
+          <ToolTip>Replace with your condition</ToolTip>
+          <Default>Condition</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>Fact</ID>
+          <Default>Fact</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[[$Fact$]
+      public void $unitName$_$expectedBehavior$_$Condition$()
+      {
+        // Given
+        $end$
+        // When
+
+        // Then
+
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

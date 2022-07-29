@@ -1,0 +1,1 @@
+xcopy *.code-snippets %appdata%\Code\User\Snippets
